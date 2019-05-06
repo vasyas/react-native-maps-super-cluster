@@ -4,6 +4,8 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 
+const Marker = MapView.Marker
+
 export default class ClusterMarker extends Component {
   constructor(props) {
     super(props)
