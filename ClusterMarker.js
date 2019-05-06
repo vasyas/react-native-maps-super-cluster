@@ -2,9 +2,7 @@
 
 // base libs
 import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-
-const Marker = MapView.Marker
+import { Component } from 'react'
 
 export default class ClusterMarker extends Component {
   constructor(props) {
